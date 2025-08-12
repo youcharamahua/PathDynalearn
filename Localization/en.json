@@ -1,0 +1,24 @@
+{
+  "title": "PathDynalearn",
+  "desc": "14-day efficient study plan + intensive practice, your professional planning assistant!",
+  "nav": [ "Home", "Page 1", "Page 2" ],
+  "home_title": "Welcome to PathDynalearn!",
+  "home_content": "This is the content of the home page!",
+  "page1_title": "Page 1",
+  "page1_content": "This is the content of page 1. Yay!",
+  "page2_title": "Page 2",
+  "page2_content": "Oh cool, this is page 2!",
+  "notfound": "404: Not found",
+  "notfound_content": "The pathname {} was not recognised...",
+  "lang_label": "Language",
+  "lang_options": [
+    {
+      "label": "English",
+      "value": "en"
+    },
+    {
+      "label": "Chinese",
+      "value": "zh"
+    }
+  ]
+}

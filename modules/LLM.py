@@ -1,5 +1,5 @@
 ﻿from openai import OpenAI
-import json
+
 
 system_prompt = '''
 你是一名专业的学习规划指导老师，你可以根据一个学生想要完成的目标，
@@ -29,13 +29,14 @@ def callLLM_base(client):
         model="deepseek-reasoner",
         messages=[
             {"role": "system", "content": system_prompt},
-            {"role": "user", "content": "我想要学习高等数学考研的一些求极限做题技巧"},
+            {"role": "user", "content": "我想要学习C++基础的数据结构知识，最好还能有一些算法练习"},
         ],
         stream=False
     )
     print(response.choices[0].message.content)
 
 if __name__ == "__main__":
+    import json
     def load_config(file_path):
         with open(file_path, 'r', encoding='utf-8') as file:
             config_data = json.load(file)

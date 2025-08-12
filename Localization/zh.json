@@ -1,0 +1,24 @@
+{
+  "title": "旬学通",
+  "desc": "14天高效学习计划 + 强化练习，帮你搞定目标的专业规划助手！",
+  "nav": [ "配置与教程", "开始指定计划", "高级功能" ],
+  "home_title": "欢迎来到 PathDynalearn!",
+  "home_content": "这里是首页内容！",
+  "page1_title": "页面1",
+  "page1_content": "这里是页面1的内容！",
+  "page2_title": "页面2",
+  "page2_content": "这里是页面2的内容！",
+  "notfound": "404：未找到页面",
+  "notfound_content": "路径 {} 未被识别...",
+  "lang_label": "语言",
+  "lang_options": [
+    {
+      "label": "英语",
+      "value": "en"
+    },
+    {
+      "label": "中文",
+      "value": "zh"
+    }
+  ]
+}
