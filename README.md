@@ -1,16 +1,7 @@
 ﻿# PathDynalearn
-旬学通，是你的14天高效学习计划 + 强化练习，帮你搞定目标的专业规划助手！
+旬学通，是你的14天高效学习计划 + 强化练习，帮你搞定目标的专业规划助手！<br />
 PathDynalearn ,This LLM-based AI assistant can customize a 14-day study plan based on your goals and generate a series of daily task lists.
 
-
-
-<!-- PROJECT SHIELDS -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />

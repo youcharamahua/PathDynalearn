@@ -1,24 +1,33 @@
 {
   "title": "旬学通",
   "desc": "14天高效学习计划 + 强化练习，帮你搞定目标的专业规划助手！",
-  "nav": [ "配置与教程", "开始指定计划", "高级功能" ],
-  "home_title": "欢迎来到 PathDynalearn!",
-  "home_content": "这里是首页内容！",
-  "page1_title": "页面1",
-  "page1_content": "这里是页面1的内容！",
-  "page2_title": "页面2",
-  "page2_content": "这里是页面2的内容！",
-  "notfound": "404：未找到页面",
-  "notfound_content": "路径 {} 未被识别...",
-  "lang_label": "语言",
-  "lang_options": [
-    {
-      "label": "英语",
-      "value": "en"
-    },
-    {
-      "label": "中文",
-      "value": "zh"
-    }
-  ]
-}
+  "nav": [ "默认信息配置", "启航计划指定", "我的计划列表" ],
+  "home_title": "欢迎来到旬学通!",
+  "home_content": {
+    "content1": "旬学通是一个帮助你制定和管理学习计划的助手，请在这里完成基础内容的配置。",
+    "LLM_select": "请选择你想要使用的大语言模型",
+    "API_key": "请在此输入对应的API密钥",
+    "API_key_prompt": "API密钥不会被上传到服务器，仅保存在你的本地数据库",
+    "difficulty": "(选填)请填写你期望的学习难度，默认基础难度",
+    "difficulty_select": [ "入门", "基础", "强化", "深入" ],
+    "days": "(选填)你期望的学习天数，最少不低于七天，至多十四天",
+    "days_prompt": "学习不宜追求速度，请认真考量"
+  },
+    "page1_title": "页面1",
+    "page1_content": "这里是页面1的内容！",
+    "page2_title": "页面2",
+    "page2_content": "这里是页面2的内容！",
+    "notfound": "404：未找到页面",
+    "notfound_content": "路径 {} 未被识别...",
+    "lang_label": "语言",
+    "lang_options": [
+      {
+        "label": "英语",
+        "value": "en"
+      },
+      {
+        "label": "中文",
+        "value": "zh"
+      }
+    ]
+  }

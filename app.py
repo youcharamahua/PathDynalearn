@@ -4,6 +4,7 @@ import dash_bootstrap_components as dbc
 from dash import Input, Output, dcc, html
 import json, os
 import modules.style as Sty
+import modules.configPage as ConfigPage
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 
@@ -97,10 +98,8 @@ def update_sidebar(lang):
 def render_page_content(pathname, lang):
     c = config.LocalizationDict[lang]
     if pathname == "/":
-        return html.Div([
-            html.H3(c["home_title"], style={"color": "#007bff"}),
-            html.P(c["home_content"], style={"fontSize": "1.1rem"})
-        ])
+        return ConfigPage.load_ConfigPage(c)
+
     elif pathname == "/page-1":
         return html.Div([
             html.H4(c["page1_title"], style={"color": "#17a2b8"}),
