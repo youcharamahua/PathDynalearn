@@ -119,6 +119,17 @@ def render_page_content(pathname, lang):
         className="p-3 bg-light rounded-3",
     )
 
+@app.callback(
+    Output('output-div', 'children'),
+    [Input('model-select', 'value'),
+     Input('api-key', 'value'),
+     Input('difficulty-select', 'value'),
+     Input('study-days', 'value')]
+)
+def update_output(model, api_key, difficulty, days):
+    # 处理用户输入
+    return f"选择模型: {model}, 难度: {difficulty}, 天数: {days}"
+
 if __name__ == "__main__":
     
     app.run(port=8888)
